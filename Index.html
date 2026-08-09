@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTO PERFORMANCE | Natação & Taekwondo</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0284c7">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+    <nav class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur border-b border-slate-800 p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-extrabold tracking-wider text-sky-400">PORTO <span class="text-white">PERFORMANCE</span></h1>
+            <button onclick="toggleAuthModal()" class="bg-sky-600 hover:bg-sky-500 text-white font-semibold px-4 py-2 rounded-lg transition shadow-lg shadow-sky-600/30">
+                <i class="fa-solid fa-user-lock mr-2"></i>Área do Aluno
+            </button>
+        </div>
+    </nav>
+    <section class="relative py-20 px-4 text-center bg-gradient-to-b from-slate-900 via-sky-950 to-slate-900">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <h2 class="text-4xl md:text-6xl font-black tracking-tight">"Mergulhe na sua melhor versão."</h2>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto">Acompanhamento de alta performance em Natação e Taekwondo com metodologia focada na evolução individual, segurança e disciplina.</p>
+            <div class="flex flex-wrap justify-center gap-4 pt-4">
+                <button onclick="toggleAuthModal('signup')" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-xl transition shadow-lg shadow-emerald-600/30">Quero ser Aluno</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
